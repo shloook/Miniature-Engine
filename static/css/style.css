@@ -1,0 +1,9 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f6f7fb; color:#222 }
+.container { max-width:900px; margin:40px auto; background:white; padding:20px; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.08) }
+textarea { width:100%; padding:12px; border-radius:6px; border:1px solid #ddd; font-size:15px }
+.controls { margin-top:10px }
+button { padding:10px 14px; margin-right:8px; border-radius:6px; border:none; cursor:pointer }
+#misspellings { margin-top:12px }
+.miss { background:#fff3f3; padding:8px; border-radius:6px; margin-bottom:6px }
+pre { background:#f4f6f8; padding:12px; border-radius:6px; overflow:auto }
+.suggest-btn { margin-left:8px; padding:4px 8px; border-radius:4px; cursor:pointer }

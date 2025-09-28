@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Spell & Structure Tool</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Spell & Structure Tool</h1>
+      <textarea id="inputText" placeholder="Type or paste text here..." rows="8"></textarea>
+      <div class="controls">
+        <button id="checkBtn">Check</button>
+        <button id="applyBtn">Apply Corrections</button>
+      </div>
+
+      <div id="results">
+        <h2>Results</h2>
+        <div id="misspellings"></div>
+        <h3>Corrected Text</h3>
+        <pre id="corrected"></pre>
+        <h3>Structure Suggestions</h3>
+        <div id="structure"></div>
+      </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>
